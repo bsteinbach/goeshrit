@@ -3,7 +3,7 @@ import os,sys
 import numpy as np
 import crc16
 import xritparse
-import PIL
+import PIL.Image
 
 fn = sys.argv[1]
 x = np.fromfile(fn,dtype=np.uint8)
